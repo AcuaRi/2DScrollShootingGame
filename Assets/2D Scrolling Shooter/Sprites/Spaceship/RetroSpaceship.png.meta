@@ -106,11 +106,37 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spaceship_0
+      name: RetroSpaceship_0
       rect:
         serializedVersion: 2
         x: 0
@@ -122,16 +148,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d907fffc29606fc60800000000000000
-      internalID: 7851470227991654557
+      spriteID: 9acd356876b827f428ccc1501a69afb0
+      internalID: 1236984329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_1
+      name: RetroSpaceship_1
       rect:
         serializedVersion: 2
         x: 48
@@ -143,16 +169,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b64775f7ce686de40800000000000000
-      internalID: 5680876330281301099
+      spriteID: 8625414892c9a2f448b8dc92a2969b88
+      internalID: -1810595201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_2
+      name: RetroSpaceship_2
       rect:
         serializedVersion: 2
         x: 96
@@ -164,16 +190,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 32370ff3f3974d7b0800000000000000
-      internalID: -5200398357143456989
+      spriteID: 6452a5add3f2e774cb929890515418b1
+      internalID: 1422390714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_3
+      name: RetroSpaceship_3
       rect:
         serializedVersion: 2
         x: 144
@@ -185,16 +211,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24a8aa2c84be96980800000000000000
-      internalID: -8545040120222676414
+      spriteID: 94471718b826b824e802101c34c421b4
+      internalID: -2048878773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_4
+      name: RetroSpaceship_4
       rect:
         serializedVersion: 2
         x: 192
@@ -206,16 +232,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7790a7b6f53bdba0800000000000000
-      internalID: -6063193139565258881
+      spriteID: d58ae0fdba1704f4290150d53264f7f7
+      internalID: 1111506363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_5
+      name: RetroSpaceship_5
       rect:
         serializedVersion: 2
         x: 240
@@ -227,16 +253,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a497dcbb3c26755c0800000000000000
-      internalID: -4226801132454971062
+      spriteID: 2129de0986d654f42bf40d2fbd661903
+      internalID: -528489773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_6
+      name: RetroSpaceship_6
       rect:
         serializedVersion: 2
         x: 288
@@ -248,16 +274,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d1ccc9151ff18eb0800000000000000
-      internalID: -4719210468415323688
+      spriteID: e40879d0a111e434586ee5f34568abfa
+      internalID: -752547343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_7
+      name: RetroSpaceship_7
       rect:
         serializedVersion: 2
         x: 336
@@ -269,16 +295,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c22491acfc6118610800000000000000
-      internalID: 1621602422534783532
+      spriteID: 79eb67309539f4347b615a645a472d8b
+      internalID: 871234172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_8
+      name: RetroSpaceship_8
       rect:
         serializedVersion: 2
         x: 0
@@ -290,16 +316,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f217faa72702c4e00800000000000000
-      internalID: 1030234090817679663
+      spriteID: 4f4a1b05c071be54684020588f26d01b
+      internalID: 513186702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_9
+      name: RetroSpaceship_9
       rect:
         serializedVersion: 2
         x: 48
@@ -311,16 +337,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7b2bef85d0658e70800000000000000
-      internalID: 9116799491040291711
+      spriteID: a8736857b350fc647b667fecb040ba37
+      internalID: -2110848095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_10
+      name: RetroSpaceship_10
       rect:
         serializedVersion: 2
         x: 96
@@ -332,16 +358,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 476a9e37bdd3095c0800000000000000
-      internalID: -4210797638839589260
+      spriteID: 7d11f3e79bc717540aa7bf95bbcfd5a8
+      internalID: 454355001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_11
+      name: RetroSpaceship_11
       rect:
         serializedVersion: 2
         x: 144
@@ -353,16 +379,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef642f87cca282000800000000000000
-      internalID: 11306056759265022
+      spriteID: f6f29f342355ae649acaf5f0349902fe
+      internalID: -538156249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_12
+      name: RetroSpaceship_12
       rect:
         serializedVersion: 2
         x: 192
@@ -374,16 +400,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e9a6fbd2b425fbe0800000000000000
-      internalID: -1444207754889221660
+      spriteID: 9f9d4b3565437ed49a11181b680bfd9d
+      internalID: -1773784736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_13
+      name: RetroSpaceship_13
       rect:
         serializedVersion: 2
         x: 240
@@ -395,16 +421,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87df7fe508503a530800000000000000
-      internalID: 3864938954121280888
+      spriteID: 3e29f36829a468d4381561954c0aa901
+      internalID: -402980690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_14
+      name: RetroSpaceship_14
       rect:
         serializedVersion: 2
         x: 288
@@ -416,16 +442,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ebe0e154c7c850390800000000000000
-      internalID: -7852715909887160642
+      spriteID: ee1941724951cbb44b8b17d4a77a9fb5
+      internalID: 1693184044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_15
+      name: RetroSpaceship_15
       rect:
         serializedVersion: 2
         x: 336
@@ -437,16 +463,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55a3e35fed6fc3d70800000000000000
-      internalID: 9024359190801300053
+      spriteID: fa3e76391eb98c94cac9b07a1cfa2db4
+      internalID: 2015872639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_16
+      name: RetroSpaceship_16
       rect:
         serializedVersion: 2
         x: 0
@@ -458,16 +484,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0e7e9adb2166ae4b0800000000000000
-      internalID: -5410399771654756384
+      spriteID: 88953015998545148bae918d84faf806
+      internalID: -1953158903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spaceship_17
+      name: RetroSpaceship_17
       rect:
         serializedVersion: 2
         x: 48
@@ -479,31 +505,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1db229af93a1870f0800000000000000
-      internalID: -1119115671082226735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spaceship_18
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 24
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f20a23747c11f300800000000000000
-      internalID: 284039537974969076
+      spriteID: bd14ae7a9cdd73f44b9b7b780a900403
+      internalID: 1488792642
       vertices: []
       indices: 
       edges: []
@@ -511,7 +516,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d9aba1a249c7d1f40ba720ba51ea3598
     internalID: 0
     vertices: []
     indices: 
@@ -519,25 +524,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spaceship_0: 7851470227991654557
-      Spaceship_1: 5680876330281301099
-      Spaceship_10: -4210797638839589260
-      Spaceship_11: 11306056759265022
-      Spaceship_12: -1444207754889221660
-      Spaceship_13: 3864938954121280888
-      Spaceship_14: -7852715909887160642
-      Spaceship_15: 9024359190801300053
-      Spaceship_16: -5410399771654756384
-      Spaceship_17: -1119115671082226735
-      Spaceship_18: 284039537974969076
-      Spaceship_2: -5200398357143456989
-      Spaceship_3: -8545040120222676414
-      Spaceship_4: -6063193139565258881
-      Spaceship_5: -4226801132454971062
-      Spaceship_6: -4719210468415323688
-      Spaceship_7: 1621602422534783532
-      Spaceship_8: 1030234090817679663
-      Spaceship_9: 9116799491040291711
+      RetroSpaceship_0: 1236984329
+      RetroSpaceship_1: -1810595201
+      RetroSpaceship_10: 454355001
+      RetroSpaceship_11: -538156249
+      RetroSpaceship_12: -1773784736
+      RetroSpaceship_13: -402980690
+      RetroSpaceship_14: 1693184044
+      RetroSpaceship_15: 2015872639
+      RetroSpaceship_16: -1953158903
+      RetroSpaceship_17: 1488792642
+      RetroSpaceship_2: 1422390714
+      RetroSpaceship_3: -2048878773
+      RetroSpaceship_4: 1111506363
+      RetroSpaceship_5: -528489773
+      RetroSpaceship_6: -752547343
+      RetroSpaceship_7: 871234172
+      RetroSpaceship_8: 513186702
+      RetroSpaceship_9: -2110848095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
