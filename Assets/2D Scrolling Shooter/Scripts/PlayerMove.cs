@@ -1,9 +1,27 @@
+using System;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    [Serializable]
+    class ClampValue
+    {
+        [SerializeField] private float min;
+        [SerializeField] private float max;
+
+        public float Min { get { return min; } }
+        public float Max { get { return max; } }
+
+        public float Clamp(float target)
+        {
+            return Mathf.Clamp(target, min, max);
+        }
+    }
+    
     //Speed of delay for drag of player
     [SerializeField] private float lagSpeed = 5f;
+    [SerializeField] private ClampValue clampX;
+    [SerializeField] private ClampValue clampY;
     
     private Camera mainCamera;
     private Vector3 offset;
@@ -34,8 +52,8 @@ public class PlayerMove : MonoBehaviour
             
             //restrict x, y scope
             Vector3 targetPosition = clickPosition + offset;
-            targetPosition.x = Mathf.Clamp(targetPosition.x, -1.3f, 1.3f);
-            targetPosition.y = Mathf.Clamp(targetPosition.y, -2.2f, 1f);
+            targetPosition.x = clampX.Clamp(targetPosition.x);
+            targetPosition.y = clampY.Clamp(targetPosition.y);
             
             //refTransform.position = clickPosition + offset;
             refTransform.position = Vector3.Lerp(refTransform.position, targetPosition, Time.deltaTime * lagSpeed);
