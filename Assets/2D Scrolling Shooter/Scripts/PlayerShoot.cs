@@ -1,22 +1,17 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerShoot : MonoBehaviour
 {
     [SerializeField] private float elapsedTime = 0;
     [SerializeField] private float shootInterval = 1f;
     [SerializeField] private GameObject bulletPrefab;
-    
-    private Animator refAnimator;
+    [SerializeField] private Transform firePosition;
 
-    private void Awake()
-    {
-        refAnimator = GetComponent<Animator>();
-        
-        //automatically repeated
-        //InvokeRepeating("Shoot", 0, shootInterval);
-        //CancelInvoke("Shoot");
-    }
+    public UnityEvent OnShoot;
+    
+    //private Animator refAnimator;
 
     private void Update()
     {
@@ -36,10 +31,11 @@ public class PlayerShoot : MonoBehaviour
 
     private void Shoot()
     {
-        refAnimator.SetTrigger("Shoot");
+        OnShoot?.Invoke();
+        
         if(bulletPrefab != null)
         {
-            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Instantiate(bulletPrefab, firePosition.position, Quaternion.identity);
         }
         else
         {
