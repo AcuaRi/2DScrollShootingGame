@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RetroSpaceship_4
+      name: Enemy_Idle0
       rect:
         serializedVersion: 2
         x: 192
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RetroSpaceship_5
+      name: Enemy_Idle1
       rect:
         serializedVersion: 2
         x: 240
@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RetroSpaceship_6
+      name: Enemy_Idle2
       rect:
         serializedVersion: 2
         x: 288
@@ -283,7 +283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RetroSpaceship_7
+      name: Enemy_Idle3
       rect:
         serializedVersion: 2
         x: 336
@@ -524,6 +524,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Enemy_Idle0: 1111506363
+      Enemy_Idle1: -528489773
+      Enemy_Idle2: -752547343
+      Enemy_Idle3: 871234172
       Player_Shoot_0: 513186702
       Player_Shoot_1: -2110848095
       Player_Shoot_2: 454355001
@@ -538,10 +542,6 @@ TextureImporter:
       RetroSpaceship_17: 1488792642
       RetroSpaceship_2: 1422390714
       RetroSpaceship_3: -2048878773
-      RetroSpaceship_4: 1111506363
-      RetroSpaceship_5: -528489773
-      RetroSpaceship_6: -752547343
-      RetroSpaceship_7: 871234172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
